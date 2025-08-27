@@ -1,7 +1,7 @@
 global:
-  message: Customer order dev environment message.
+  message: Order service dev environment message.
 server:
-  port: 8082
+  port: 8084
 message: Just a message from order dev.
 spring:
   datasource:
