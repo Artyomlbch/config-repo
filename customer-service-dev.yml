@@ -1,0 +1,15 @@
+global:
+  message: Customer service dev environment message.
+server:
+  port: 8082
+message: Just a message from dev.
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cust_dev
+    username: Artyomlbch
+    password: Artyomlbch213853
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    format-sql: true
