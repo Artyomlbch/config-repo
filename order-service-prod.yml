@@ -1,0 +1,15 @@
+global:
+  message: Order service prod environment message.
+server:
+  port: 8085
+message: Just a message from order prod.
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order_prod
+    username: Artyomlbch
+    password: Artyomlbch213853
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    format-sql: true
