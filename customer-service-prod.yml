@@ -6,7 +6,7 @@ message: Just a message from prod.
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/cust_prod
-    username: Artyomlbch
+    username: postgres
     password: Artyomlbch213853
   jpa:
     hibernate:
