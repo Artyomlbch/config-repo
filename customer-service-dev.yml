@@ -6,7 +6,7 @@ message: Just a message from dev.
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/cust_dev
-    username: Artyomlbch
+    username: postgres
     password: Artyomlbch213853
   jpa:
     hibernate:
