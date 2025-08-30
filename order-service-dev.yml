@@ -5,9 +5,9 @@ server:
 message: Just a message from order dev.
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/order_dev
-    username: postgres
-    password: Artyomlbch213853
+    url: jdbc:h2:mem:order_master
+    username: root
+    password:
   jpa:
     hibernate:
       ddl-auto: update
